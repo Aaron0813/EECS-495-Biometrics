@@ -24,5 +24,5 @@ def draw_roc(y_test, y_score):
     plt.ylabel('True Positive Rate')
     plt.title('Receiver operating characteristic example')
     plt.legend(loc="lower right")
-    plt.pause(3)
-    # plt.savefig('ROC.jpg')
+    plt.savefig('ROC.jpg')
+    plt.show()

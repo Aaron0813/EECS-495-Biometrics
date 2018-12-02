@@ -46,5 +46,4 @@ def draw_cmc(predict_label, test_y):
     plt.ylabel("Matching Rate")
     plt.legend()
     plt.title("CMC Curve")
-    plt.pause(3)
-    # plt.savefig('CMC.jpg')
+    plt.savefig('CMC.jpg')
